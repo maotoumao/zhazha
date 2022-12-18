@@ -6,6 +6,18 @@ module.exports = {
     'import/no-unresolved': 'error',
     // Since React 17 and typescript 4.1 you can safely disable the rule
     'react/react-in-jsx-scope': 'off',
+    "react/require-default-props": 'off',
+    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': 'warn',
+    'no-restricted-syntax': 'warn',
+    'guard-for-in': 'warn',
+    'default-case': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'no-nested-ternary': 'off',
+    'import/no-mutable-exports': 'warn',
+    'no-await-in-loop': 'warn',
+    'no-empty': 'warn'
   },
   parserOptions: {
     ecmaVersion: 2020,

@@ -1,0 +1,29 @@
+{
+  "keymap": {
+    "1": { "path": "./assets/1.mp3" },
+    "5": { "path": "./assets/5.mp3" },
+    "Slash": { "path": "./assets/Slash.mp3" },
+    "Period": { "path": "./assets/Period.mp3" },
+    "W": { "path": "./assets/W.mp3" },
+    "L": { "path": "./assets/L.mp3" },
+    "Y": { "path": "./assets/Y.mp3" },
+    "C": { "path": "./assets/C.mp3" },
+    "T": { "path": "./assets/T.mp3" },
+    "R": { "path": "./assets/R.mp3" },
+    "M": { "path": "./assets/M.mp3" },
+    "J": { "path": "./assets/J.mp3" },
+    "N": { "path": "./assets/N.mp3" },
+    "Q": { "path": "./assets/Q.mp3" },
+    "A": { "path": "./assets/A.mp3" },
+    "X": { "path": "./assets/X.mp3" },
+    "Z": { "path": "./assets/Z.mp3" },
+    "Backspace": { "path": "./assets/Backspace.mp3" },
+    "H": { "path": "./assets/H.mp3" },
+    "S": { "path": "./assets/S.mp3" },
+    "P": { "path": "./assets/P.mp3" },
+    "O": { "path": "./assets/O.mp3" },
+    "Ctrl": { "path": "./assets/Ctrl.mp3" },
+    "*": { "path": "./assets/dft.mp3" }
+  },
+  "name": "键盘"
+}

@@ -1,0 +1,36 @@
+.keyWrapper {
+  grid-column: auto / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 #d9d9d9, 0 0px #d9d9d9, 0 1px #d9d9d9, 0 2px #d9d9d9,
+    0 3px #d9d9d9, 0 4px #d9d9d9, 0 5px #d9d9d9, 2px 2.5px 4px #adb5bd,
+    0 -1px 2.5px #adb5bd;
+  text-align: left;
+  transform: translate3d(0, 0, 4px);
+  transform-style: preserve-3d;
+  transition: all 0.25s cubic-bezier(0.2, 1, 0.2, 1);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: #e6e6e6;
+  color: #343a40;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  outline: none !important;
+  user-select: none;
+  backdrop-filter: blur(10px);
+}
+
+.keyWrapperActive {
+  border-color: transparent;
+  box-shadow: none;
+  transform: translate3d(0, 4px, 0);
+}
+
+.keyWrapperDisable {
+  border-color: transparent;
+  box-shadow: none;
+  transform: translate3d(0, 4px, 0);
+  background-color: #e6e6e6;
+}
