@@ -6,6 +6,7 @@ import Key from './components/Key';
 import SetKeyModal from './components/SetKeyModal';
 import { mainAreaKeys, opeartionAreaKeys } from './constants/keyLayout';
 import './index.css';
+import bkgd from '../../../../assets/background.png';
 
 /** 50x50  */
 export default function Keyboard() {
@@ -38,6 +39,7 @@ export default function Keyboard() {
 
   return (
     <div className="keyboard-wrapper">
+      <img src={bkgd} className='keyboard-background'></img>
       <div className="keyboard-main">
         {mainAreaKeys.map((key) => (
           <Key

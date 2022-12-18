@@ -332,7 +332,7 @@ export default class MenuBuilder {
             message: `这又是猫头猫的一个无聊作品, 敲键盘真是太无聊了。写这个东西还把MusicFree停更了一个星期。随缘更新，可以去github瞅瞅，反正是做着玩。
 
 @author: 猫头猫
-@github: https://github.com/maotoumao
+@github: https://github.com/maotoumao/zhazha
 @公众号: 一只猫头猫
 @bilibili: 不想睡觉猫头猫
 @开源协议：GPL
